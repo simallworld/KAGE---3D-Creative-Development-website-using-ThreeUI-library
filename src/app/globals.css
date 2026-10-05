@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #05070a;
+  color: #dfe7e0;
+}
+
+/* The scene fills the viewport; the frame owns its own scroll story inside. */
+.shader-frame {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+}
